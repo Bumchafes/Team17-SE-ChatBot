@@ -1,0 +1,485 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hello"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hi"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hello there"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hi there"
+      }, 
+      {
+        "entities": [], 
+        "intent": "farewell", 
+        "text": "goodbye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "farewell", 
+        "text": "good bye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "farewell", 
+        "text": "bye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "farewell", 
+        "text": "thank you goodbye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "farewell", 
+        "text": "thanks have a good day"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 20, 
+            "value": "minimum", 
+            "entity": "minimum"
+          }, 
+          {
+            "start": 50, 
+            "end": 54, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 50, 
+            "end": 54, 
+            "value": "bcis", 
+            "entity": "course"
+          }
+        ], 
+        "intent": "bcisRequirements", 
+        "text": "what are the minimum requirements to get into the BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 29, 
+            "end": 33, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "majors", 
+            "entity": "major"
+          }, 
+          {
+            "start": 29, 
+            "end": 33, 
+            "value": "bcis", 
+            "entity": ""
+          }
+        ], 
+        "intent": "getMajors", 
+        "text": "what majors are there in the BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "suggested", 
+            "entity": "suggest"
+          }, 
+          {
+            "start": 33, 
+            "end": 39, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 48, 
+            "end": 56, 
+            "value": "software", 
+            "entity": "software"
+          }, 
+          {
+            "start": 57, 
+            "end": 68, 
+            "value": "development", 
+            "entity": "development"
+          }, 
+          {
+            "start": 69, 
+            "end": 74, 
+            "value": "major", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "suggestedPapers", 
+        "text": "what would be a suggested set of papers for the software development major?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 27, 
+            "value": "pre-requisites", 
+            "entity": "pre-requisites"
+          }, 
+          {
+            "start": 32, 
+            "end": 45, 
+            "value": "co-requisites", 
+            "entity": "co-requisites"
+          }, 
+          {
+            "start": 50, 
+            "end": 58, 
+            "value": "software", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 59, 
+            "end": 70, 
+            "value": "engineering", 
+            "entity": "paper"
+          }
+        ], 
+        "intent": "paperRequirements", 
+        "text": "what are the pre-requisites and co-requisites for software engineering?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "majors", 
+            "entity": "major"
+          }, 
+          {
+            "start": 23, 
+            "end": 27, 
+            "value": "bcis", 
+            "entity": "course"
+          }, 
+          {
+            "start": 23, 
+            "end": 27, 
+            "value": "BCIS", 
+            "entity": "course"
+          }
+        ], 
+        "intent": "getMajors", 
+        "text": "what majors are in the BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 27, 
+            "value": "bcis", 
+            "entity": "course"
+          }, 
+          {
+            "start": 23, 
+            "end": 27, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 13, 
+            "end": 19, 
+            "value": "majors", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "getMajors", 
+        "text": "what are the majors in BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "majors", 
+            "entity": "major"
+          }, 
+          {
+            "start": 23, 
+            "end": 27, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 23, 
+            "end": 27, 
+            "value": "BCIS", 
+            "entity": "course"
+          }
+        ], 
+        "intent": "getMajors", 
+        "text": "what majors are in the BCIS course?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 38, 
+            "value": "bcis", 
+            "entity": "course"
+          }, 
+          {
+            "start": 34, 
+            "end": 38, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 13, 
+            "end": 16, 
+            "value": "min", 
+            "entity": "minimum"
+          }, 
+          {
+            "start": 17, 
+            "end": 29, 
+            "value": "requirements", 
+            "entity": "requirements"
+          }
+        ], 
+        "intent": "bcisRequirements", 
+        "text": "what are the min requirements for BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 32, 
+            "end": 36, 
+            "value": "bcis", 
+            "entity": "course"
+          }, 
+          {
+            "start": 32, 
+            "end": 36, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 11, 
+            "end": 23, 
+            "value": "requirements", 
+            "entity": "requirements"
+          }
+        ], 
+        "intent": "bcisRequirements", 
+        "text": "what's the requirements for the BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 31, 
+            "end": 35, 
+            "value": "bcis", 
+            "entity": "course"
+          }, 
+          {
+            "start": 31, 
+            "end": 35, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 10, 
+            "end": 23, 
+            "value": "requirements", 
+            "entity": "requirements"
+          }
+        ], 
+        "intent": "bcisRequirements", 
+        "text": "whats the requirements for the BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 38, 
+            "value": "bcis", 
+            "entity": "course"
+          }, 
+          {
+            "start": 34, 
+            "end": 38, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 13, 
+            "end": 26, 
+            "value": "requirements", 
+            "entity": "requirements"
+          }
+        ], 
+        "intent": "bcisRequirements", 
+        "text": "what are the requirements for the BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 40, 
+            "end": 51, 
+            "value": "engineering", 
+            "entity": "engineering"
+          }, 
+          {
+            "start": 13, 
+            "end": 26, 
+            "value": "prerequisites", 
+            "entity": "pre-requisites"
+          }, 
+          {
+            "start": 31, 
+            "end": 39, 
+            "value": "software", 
+            "entity": "software"
+          }
+        ], 
+        "intent": "paperRequirements", 
+        "text": "what are the prerequisites for software engineering?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 24, 
+            "end": 28, 
+            "value": "bcis", 
+            "entity": "course"
+          }, 
+          {
+            "start": 24, 
+            "end": 28, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 10, 
+            "end": 16, 
+            "value": "majors", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "getMajors", 
+        "text": "whats the majors in the BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "bcis", 
+            "entity": "course"
+          }, 
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "BCIS", 
+            "entity": "course"
+          }, 
+          {
+            "start": 10, 
+            "end": 16, 
+            "value": "majors", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "getMajors", 
+        "text": "whats the majors for the BCIS?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 38, 
+            "end": 46, 
+            "value": "software", 
+            "entity": "software"
+          }, 
+          {
+            "start": 47, 
+            "end": 58, 
+            "value": "development", 
+            "entity": "development"
+          }, 
+          {
+            "start": 59, 
+            "end": 64, 
+            "value": "major", 
+            "entity": "major"
+          }, 
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "suggested", 
+            "entity": "suggest"
+          }, 
+          {
+            "start": 23, 
+            "end": 29, 
+            "value": "papers", 
+            "entity": "paper"
+          }
+        ], 
+        "intent": "suggestedPapers", 
+        "text": "what are the suggested papers for the software development major?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 19, 
+            "value": "suggested", 
+            "entity": "suggest"
+          }, 
+          {
+            "start": 20, 
+            "end": 26, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 35, 
+            "end": 43, 
+            "value": "software", 
+            "entity": "software"
+          }, 
+          {
+            "start": 44, 
+            "end": 55, 
+            "value": "development", 
+            "entity": "development"
+          }, 
+          {
+            "start": 56, 
+            "end": 61, 
+            "value": "major", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "suggestedPapers", 
+        "text": "whats the suggested papers for the software development major?"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}
