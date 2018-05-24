@@ -110,15 +110,9 @@
           }, 
           {
             "start": 48, 
-            "end": 56, 
-            "value": "software", 
-            "entity": "software"
-          }, 
-          {
-            "start": 57, 
             "end": 68, 
-            "value": "development", 
-            "entity": "development"
+            "value": "software development", 
+            "entity": "software development"
           }, 
           {
             "start": 69, 
@@ -146,14 +140,8 @@
           }, 
           {
             "start": 50, 
-            "end": 58, 
-            "value": "software", 
-            "entity": "paper"
-          }, 
-          {
-            "start": 59, 
             "end": 70, 
-            "value": "engineering", 
+            "value": "software engineering", 
             "entity": "paper"
           }
         ], 
@@ -337,12 +325,6 @@
       {
         "entities": [
           {
-            "start": 40, 
-            "end": 51, 
-            "value": "engineering", 
-            "entity": "engineering"
-          }, 
-          {
             "start": 13, 
             "end": 26, 
             "value": "prerequisites", 
@@ -350,9 +332,9 @@
           }, 
           {
             "start": 31, 
-            "end": 39, 
-            "value": "software", 
-            "entity": "software"
+            "end": 51, 
+            "value": "software engineering", 
+            "entity": "paper"
           }
         ], 
         "intent": "paperRequirements", 
@@ -409,24 +391,6 @@
       {
         "entities": [
           {
-            "start": 38, 
-            "end": 46, 
-            "value": "software", 
-            "entity": "software"
-          }, 
-          {
-            "start": 47, 
-            "end": 58, 
-            "value": "development", 
-            "entity": "development"
-          }, 
-          {
-            "start": 59, 
-            "end": 64, 
-            "value": "major", 
-            "entity": "major"
-          }, 
-          {
             "start": 13, 
             "end": 22, 
             "value": "suggested", 
@@ -437,6 +401,18 @@
             "end": 29, 
             "value": "papers", 
             "entity": "paper"
+          }, 
+          {
+            "start": 38, 
+            "end": 58, 
+            "value": "software development", 
+            "entity": "software development"
+          }, 
+          {
+            "start": 59, 
+            "end": 64, 
+            "value": "major", 
+            "entity": "major"
           }
         ], 
         "intent": "suggestedPapers", 
@@ -458,15 +434,9 @@
           }, 
           {
             "start": 35, 
-            "end": 43, 
-            "value": "software", 
-            "entity": "software"
-          }, 
-          {
-            "start": 44, 
             "end": 55, 
-            "value": "development", 
-            "entity": "development"
+            "value": "software development", 
+            "entity": "software development"
           }, 
           {
             "start": 56, 
@@ -477,6 +447,426 @@
         ], 
         "intent": "suggestedPapers", 
         "text": "whats the suggested papers for the software development major?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 26, 
+            "value": "co-requisites", 
+            "entity": "co-requisites"
+          }, 
+          {
+            "start": 31, 
+            "end": 51, 
+            "value": "software engineering", 
+            "entity": "paper"
+          }
+        ], 
+        "intent": "paperRequirements", 
+        "text": "what are the co-requisites for software engineering?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 27, 
+            "value": "pre-requisites", 
+            "entity": "pre-requisites"
+          }, 
+          {
+            "start": 32, 
+            "end": 52, 
+            "value": "software engineering", 
+            "entity": "paper"
+          }
+        ], 
+        "intent": "paperRequirements", 
+        "text": "what are the pre-requisites for software engineering?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 25, 
+            "value": "corequisites", 
+            "entity": "co-requisites"
+          }, 
+          {
+            "start": 30, 
+            "end": 50, 
+            "value": "software engineering", 
+            "entity": "paper"
+          }
+        ], 
+        "intent": "paperRequirements", 
+        "text": "what are the corequisites for software engineering?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 16, 
+            "end": 22, 
+            "value": "suited", 
+            "entity": "suited"
+          }, 
+          {
+            "start": 29, 
+            "end": 49, 
+            "value": "software development", 
+            "entity": "major"
+          }, 
+          {
+            "start": 50, 
+            "end": 53, 
+            "value": "job", 
+            "entity": "job"
+          }
+        ], 
+        "intent": "jobPapers", 
+        "text": "what papers are suited for a software development job?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "good for", 
+            "entity": "suited"
+          }, 
+          {
+            "start": 27, 
+            "end": 47, 
+            "value": "software development", 
+            "entity": "major"
+          }, 
+          {
+            "start": 48, 
+            "end": 51, 
+            "value": "job", 
+            "entity": "job"
+          }, 
+          {
+            "start": 48, 
+            "end": 51, 
+            "value": "job", 
+            "entity": ""
+          }
+        ], 
+        "intent": "jobPapers", 
+        "text": "what papers are good for a software development job?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 19, 
+            "value": "suggested", 
+            "entity": "suggest"
+          }, 
+          {
+            "start": 20, 
+            "end": 26, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 35, 
+            "end": 45, 
+            "value": "networking", 
+            "entity": "networking"
+          }, 
+          {
+            "start": 46, 
+            "end": 51, 
+            "value": "major", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "suggestedPapers", 
+        "text": "whats the suggested papers for the networking major?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "suggested", 
+            "entity": "suggest"
+          }, 
+          {
+            "start": 33, 
+            "end": 39, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 48, 
+            "end": 58, 
+            "value": "networking", 
+            "entity": "networking"
+          }, 
+          {
+            "start": 59, 
+            "end": 64, 
+            "value": "major", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "suggestedPapers", 
+        "text": "what would be a suggested set of papers for the networking major?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "suggested", 
+            "entity": "suggest"
+          }, 
+          {
+            "start": 23, 
+            "end": 29, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 38, 
+            "end": 48, 
+            "value": "networking", 
+            "entity": "networking"
+          }, 
+          {
+            "start": 49, 
+            "end": 54, 
+            "value": "major", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "suggestedPapers", 
+        "text": "what are the suggested papers for the networking major?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "suggested", 
+            "entity": "suggest"
+          }, 
+          {
+            "start": 23, 
+            "end": 29, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 38, 
+            "end": 56, 
+            "value": "it service science", 
+            "entity": "it service science"
+          }, 
+          {
+            "start": 57, 
+            "end": 62, 
+            "value": "major", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "suggestedPapers", 
+        "text": "what are the suggested papers for the it service science major?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "suggested", 
+            "entity": "suggest"
+          }, 
+          {
+            "start": 33, 
+            "end": 39, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 48, 
+            "end": 66, 
+            "value": "it service science", 
+            "entity": "it service science"
+          }, 
+          {
+            "start": 67, 
+            "end": 72, 
+            "value": "major", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "suggestedPapers", 
+        "text": "what would be a suggested set of papers for the it service science major?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 19, 
+            "value": "suggested", 
+            "entity": "suggest"
+          }, 
+          {
+            "start": 20, 
+            "end": 26, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 35, 
+            "end": 53, 
+            "value": "it service science", 
+            "entity": "it service science"
+          }, 
+          {
+            "start": 54, 
+            "end": 59, 
+            "value": "major", 
+            "entity": "major"
+          }
+        ], 
+        "intent": "suggestedPapers", 
+        "text": "whats the suggested papers for the it service science major?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 16, 
+            "end": 22, 
+            "value": "suited", 
+            "entity": "suited"
+          }, 
+          {
+            "start": 29, 
+            "end": 39, 
+            "value": "networking", 
+            "entity": "networking"
+          }, 
+          {
+            "start": 40, 
+            "end": 43, 
+            "value": "job", 
+            "entity": "job"
+          }
+        ], 
+        "intent": "jobPapers", 
+        "text": "what papers are suited for a networking job?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "good for", 
+            "entity": "suited"
+          }, 
+          {
+            "start": 27, 
+            "end": 37, 
+            "value": "networking", 
+            "entity": "networking"
+          }, 
+          {
+            "start": 38, 
+            "end": 41, 
+            "value": "job", 
+            "entity": "job"
+          }
+        ], 
+        "intent": "jobPapers", 
+        "text": "what papers are good for a networking job?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 16, 
+            "end": 22, 
+            "value": "suited", 
+            "entity": "suited"
+          }, 
+          {
+            "start": 29, 
+            "end": 47, 
+            "value": "it service science", 
+            "entity": "it service science"
+          }, 
+          {
+            "start": 48, 
+            "end": 51, 
+            "value": "job", 
+            "entity": "job"
+          }
+        ], 
+        "intent": "jobPapers", 
+        "text": "what papers are suited for a it service science job?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "papers", 
+            "entity": "paper"
+          }, 
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "good for", 
+            "entity": "suited"
+          }, 
+          {
+            "start": 27, 
+            "end": 45, 
+            "value": "it service science", 
+            "entity": "it service science"
+          }, 
+          {
+            "start": 46, 
+            "end": 49, 
+            "value": "job", 
+            "entity": "job"
+          }
+        ], 
+        "intent": "jobPapers", 
+        "text": "what papers are good for a it service science job?"
       }
     ], 
     "entity_synonyms": [], 
