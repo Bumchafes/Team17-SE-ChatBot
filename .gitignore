@@ -1,2 +1,10 @@
+# Untracked files
 models
 *.backup
+
+# Untracked folders
+/*
+!/data
+!/docker
+/models/*
+!/models/chatBot17
